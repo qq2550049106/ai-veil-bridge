@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "AI-Veil takeover indicator",
+    "description": "Registers agent takeover actions as the veil_emit / veil_cancel tools and forwards them to the AI-Veil desktop app, which shows a system-level banner and border, plays a cue, sends a desktop notification, and offers an independent abort channel.",
+    "detail": "docs/DETAIL.md"
+  }
+}

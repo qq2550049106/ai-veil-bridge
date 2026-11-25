@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>AI-Veil</title>
+  <!-- 橙色圆角底 + 猫脸轮廓：与桌面端图标同一视觉语言 -->
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="#FF7A18" stroke="#D65C0A" stroke-width="2"/>
+  <path d="M18 24 L24 13 L31 23 Z" fill="#1A1410"/>
+  <path d="M46 24 L40 13 L33 23 Z" fill="#1A1410"/>
+  <ellipse cx="32" cy="36" rx="15" ry="13" fill="#1A1410"/>
+  <circle cx="26" cy="34" r="2.4" fill="#FFF5EC"/>
+  <circle cx="38" cy="34" r="2.4" fill="#FFF5EC"/>
+  <path d="M20 40 L12 38 M20 43 L11 43 M20 46 L12 48" stroke="#FFF5EC" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M44 40 L52 38 M44 43 L53 43 M44 46 L52 48" stroke="#FFF5EC" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

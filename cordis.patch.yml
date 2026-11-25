@@ -1,0 +1,9 @@
+# AI-Veil bundle patch：把插件本体插进 DSH profile 的插件树。
+#
+# 安装（dsh plugin --profile <name> add …）会读取 package.json 的
+# dsh.bundle.patch 声明并应用本层，无需手工编辑 profile 文件。
+# 这里不引用任何本机绝对路径：name 就是包名，由 loader 从 profile
+# 的依赖树解析，任何机器上安装都成立。
+- insert:
+    - id: ai-veil
+      name: 'ai-veil-bridge'

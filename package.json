@@ -1,0 +1,56 @@
+{
+  "name": "ai-veil-bridge",
+  "version": "1.0.0",
+  "description": "AI-Veil 接管提示器桥：把 DeepSeek Harness Agent 的接管动作注册为 veil_emit / veil_cancel 两个工具，转发给 AI-Veil 桌面端显示系统级横幅、边框、提示音与桌面通知",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "author": "AI-Veil Contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq2550049106/ai-veil-bridge.git"
+  },
+  "homepage": "https://github.com/qq2550049106/ai-veil-bridge",
+  "bugs": {
+    "url": "https://github.com/qq2550049106/ai-veil-bridge/issues"
+  },
+  "engines": {
+    "dsh": ">=0.1.0-rc.6"
+  },
+  "scripts": {
+    "check": "node scripts/self-check.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "cordis.patch.yml",
+    "screenshots.json",
+    "README.md",
+    "LICENSE",
+    "docs/DETAIL.md",
+    "locale/zh.json",
+    "locale/en.json",
+    "icon.svg",
+    "assets/icon-180.png",
+    "assets/screenshot-takeover.png",
+    "assets/screenshot-need-human.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "ai-veil",
+    "notification",
+    "takeover",
+    "accessibility"
+  ]
+}
